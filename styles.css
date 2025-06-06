@@ -52,18 +52,27 @@ header{
     justify-content: center;
   }
 
-  .read-more-button:link, .read-more-button:visited {
-    background-color: var(--clr-primary-500);
-    color: var(--clr-neutral-100);
+
+  button{
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: var(--clr-primary-500);
+  color: var(--clr-neutral-100);
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
     border-radius:1em;
-    max-width: 10em;
-font-size: var(--S0)
   }
+
   
-  .read-more-button:hover, .read-more-button:active {
+  button:hover, button:active {
     background-color: var(--clr-primary-400);
   }
 /* *************** Post CSS ********************* */
