@@ -139,3 +139,12 @@ header{
 	font-size: var(--s1);
     padding-top: 1em;
 }
+
+
+ @media only screen and (max-width: 800px){
+               h1{font-size:var(--s2);} 
+			   h2 {font-size:var(--s1);}
+			   h3 {font-size:var(--s0);}
+         h4 {font-size:var(--s-1);}
+			   p {font-size:var(--s-1);}
+         }   
