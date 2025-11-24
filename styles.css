@@ -1,19 +1,20 @@
 /* ************* index.html CSS ************ */
 
-
-header{
-    padding:1em;
-    background-color: var(--clr-accent-100);
-    width: 100%;
-    margin-top: var(--s0);
-    border: solid 2px var(--clr-primary-400);
-    border-radius: 20px;
-    box-shadow: 5px 5px 5px var(--clr-primary-400);
+header {
+  padding: 1em;
+  background-color: var(--clr-accent-100);
+  width: 100%;
+  margin-top: var(--s0);
+  border: solid 2px var(--clr-primary-400);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px var(--clr-primary-400);
 }
 
-#page-header{
+#page-header {
   background-image: url("/images/Headers/Wandering_Western_Qld.png"); /* The image used */
-  background-color:var(--clr-accent-100); /* Used if the image is unavailable */
+  background-color: var(
+    --clr-accent-100
+  ); /* Used if the image is unavailable */
   height: 150px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
@@ -21,74 +22,73 @@ header{
 }
 
 #page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-  
-  main {
-    padding-bottom: 2.5rem;    /* Footer height */
-  }
-  
-  footer {
-    margin-top:auto;
-    width: 100%;
-    height: 7.5rem;            /* Footer height */
-    background-color: var(--clr-accent-100);
-    padding-top: 1em;
-    margin-bottom: var(--s0);
-    border: solid 2px var(--clr-primary-400);
-    border-radius: 20px;
+  position: relative;
+  min-height: 100vh;
+}
 
-    background-image: url("/images/Headers/Wandering_Western_Qld.png"); /* The image used */
-  background-color:var(--clr-accent-100); /* Used if the image is unavailable */
+main {
+  padding-bottom: 2.5rem; /* Footer height */
+}
+
+footer {
+  margin-top: auto;
+  width: 100%;
+  height: 7.5rem; /* Footer height */
+  background-color: var(--clr-accent-100);
+  padding-top: 1em;
+  margin-bottom: var(--s0);
+  border: solid 2px var(--clr-primary-400);
+  border-radius: 20px;
+
+  background-image: url("/images/Headers/Wandering_Western_Qld.png"); /* The image used */
+  background-color: var(
+    --clr-accent-100
+  ); /* Used if the image is unavailable */
   height: 150px; /* You must set a specified height */
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  }
+}
 
-  .copyright {
+.copyright {
   font-size: var(--s0);
-  font-style:oblique;
+  font-style: oblique;
 }
 
-  section{
-    border: solid 2px var(--clr-accent-100);
-    border-radius: 10px;
-    margin: 1em;
-
-  }
-
-  .post-card{
-    display:flex;
-    padding: 2em;
-
-  }
-
-  .image-shaddow{
- border-radius:20px; 
- margin:auto; 
- box-shadow: 7.5px 7.5px 7.5px black;
+section {
+  border: solid 2px var(--clr-accent-100);
+  border-radius: 10px;
+  margin: 1em;
 }
 
-  /* .thumbnail{
+.post-card {
+  display: flex;
+  padding: 2em;
+}
+
+.image-shaddow {
+  border-radius: 20px;
+  margin: auto;
+  box-shadow: 7.5px 7.5px 7.5px black;
+}
+
+/* .thumbnail{
     padding:1em;
   } */
 
-  .post-info{
-    display:flex;
-    flex-direction:column;
-    justify-content: center;
-  }
+.post-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-.subtitle{
+.subtitle {
   margin-left: 1em;
 }
 
+button {
+  border: none;
 
-  button{
-    border: none;
-  
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -99,67 +99,77 @@ header{
   background-color: var(--clr-primary-500);
   box-shadow: 5px 5px 5px var(--clr-accent-300);
   color: var(--clr-neutral-100);
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    border-radius:1em;
-  }
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 1em;
+}
 
-  
-  button:hover, button:active {
-    background-color: var(--clr-primary-400);
-    font-size: 18px;
-  }
+button:hover,
+button:active {
+  background-color: var(--clr-primary-400);
+  font-size: 18px;
+}
 /* *************** Post CSS ********************* */
-.post-wrapper{
-    max-width: 80%;
-    margin: auto;
-    margin-top: var(--s0);
-    
+.post-wrapper {
+  max-width: 80%;
+  margin: auto;
+  margin-top: var(--s0);
 }
-.post-title{
-    text-align:center;
-     background-color: var(--clr-accent-100);
-     border: solid 2px var(--clr-primary-400);
-     box-shadow: 5px 5px 5px var(--clr-primary-400);
-     border-radius: 20px; 
+.post-title {
+  text-align: center;
+  background-color: var(--clr-accent-100);
+  border: solid 2px var(--clr-primary-400);
+  box-shadow: 5px 5px 5px var(--clr-primary-400);
+  border-radius: 20px;
 }
-  .post-image{
-        display: block;
-        margin: auto;
-        padding: 2em;
-        border-radius: 20px;
-        border: solid 2px var(--clr-accent-100);
-        margin-bottom:1em;
-  }
+.post-image {
+  display: block;
+  margin: auto;
+  padding: 2em;
+  border-radius: 20px;
+  border: solid 2px var(--clr-accent-100);
+  margin-bottom: 1em;
+}
 
-.image-caption{
-    font-family: 'Roboto', sans-serif;
-	color: var(--clr-neutral-900);
-	font-size: var(--s1);
-    padding-top: 1em;
+.image-caption {
+  font-family: "Roboto", sans-serif;
+  color: var(--clr-neutral-900);
+  font-size: var(--s1);
+  padding-top: 1em;
 }
 
 /* add media query for smaller screens  */
- @media only screen and (max-width: 800px){
-               h1{font-size:var(--s2);} 
-			   h2 {font-size:var(--s1);}
-			   h3 {font-size:var(--s0);}
-         h4 {font-size:var(--s-05);}
-			   p {font-size:var(--s-05);}
-         }   
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: var(--s2);
+  }
+  h2 {
+    font-size: var(--s1);
+  }
+  h3 {
+    font-size: var(--s0);
+  }
+  h4 {
+    font-size: var(--s-05);
+  }
+  p {
+    font-size: var(--s-05);
+  }
+}
 
-        /* add image background to post title */
-          #title {
-            background-image: url("/images/2025-06-10_Kynuna/IMG_8088.jpg");
-            background-color: var(--clr-accent-400);
-            height: 200px;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-    
-        #title-h1 {
-            padding-top: 75px;
-            color: var(--clr-neutral-100);
-            }
+/* add image background to post title */
+#title {
+  /* background image set in the header of the individual blog page */
+  /* background-image: url("/images/2025-06-10_Kynuna/IMG_8088.jpg"); */
+  background-color: var(--clr-accent-400);
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#title-h1 {
+  padding-top: 75px;
+  color: var(--clr-neutral-100);
+}
