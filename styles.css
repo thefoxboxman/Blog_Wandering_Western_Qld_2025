@@ -140,11 +140,26 @@ header{
     padding-top: 1em;
 }
 
-
+/* add media query for smaller screens  */
  @media only screen and (max-width: 800px){
                h1{font-size:var(--s2);} 
 			   h2 {font-size:var(--s1);}
 			   h3 {font-size:var(--s0);}
-         h4 {font-size:var(--s-1);}
-			   p {font-size:var(--s-1);}
+         h4 {font-size:var(--s-05);}
+			   p {font-size:var(--s-05);}
          }   
+
+        /* add image background to post title */
+          #title {
+            background-image: url("/images/2025-06-10_Kynuna/IMG_8088.jpg");
+            background-color: var(--clr-accent-400);
+            height: 200px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    
+        #title-h1 {
+            padding-top: 75px;
+            color: var(--clr-neutral-100);
+            }
